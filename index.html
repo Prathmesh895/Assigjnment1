@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+   <title>Resitrastion Form</title>
+   <style>
+    *{
+        background: rgb(197, 218, 252);
+    }
+    .a:hover {
+  background-color: white;
+}
+    ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+   </style>
+
+    <body>
+        <h1>Resitration Form</h1>
+      <div>
+        <ul>
+           <h3>Enter your details below</h3>
+           <label for="email">Email Address</label>
+           <li ><input type="email" name="email" id="email" value="" placeholder="your_email@gmail.com" , class="a"></li><br>
+           <label for="password">Enter Password</label>
+           <li><input type="password" name="password" id="password" placeholder="password" , class="a"></li>
+        </ul>
+        <h3>!Type a complex password with 8-20 characters</h3>
+        <ul>
+            <label for="text">Enter Your Phone Number</label>
+           <li> <input type="text" name="phone number" id="phone number" placeholder="+91 Phone Number" , class="a"></li>
+        </ul> 
+      </div>
+        <hr>
+        <div>
+        <h3>Enter your profession:</h3>
+            <ul> 
+            <li><input type="radio" name="profession" value="student">Student
+             <input type="radio" name="profession" value="teacher">Teacher
+             <input type="radio" name="profession" value="developer">Developer
+            </li>
+            </ul>
+        <h3>Choose the stage if you are(student)</h3>
+        <select>
+            <option>First Primary</option>
+            <option>Second </option>
+            <option>Third</option>
+
+        </select>
+    </div>
+    
+        <hr>
+        <h3>Enter your Birth date:<input type="date"></h3>
+        <ul>
+            <li><input type="text" placeholder="Any Notes"  class="a"></li>
+        </ul><hr>
+        <input type="submit" class="a">
+        <input type="Reset">
+    
+    </body>
+</html>
